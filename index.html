@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Loopstudios landing page</title>
   <link rel="stylesheet" href="dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -32,8 +35,8 @@
   </header>
 
   <section class="relative text-white">
-    <img class="h-screen w-screen object-cover object-center" src="images/desktop/image-hero.jpg">
-    <div class="border-4 border-white uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-8xl">
+    <img class="h-screen w-screen object-cover object-center overflow-auto" src="images/desktop/image-hero.jpg">
+    <div class="border-4 border-white uppercase absolute top-1/2 left-36 transform -translate-y-1/2 text-8xl font-thin pl-8 pr-36 py-8">
       <p>Immersive</p> 
       <p>experiences</p> 
       <p>that deliver</p>
@@ -42,11 +45,11 @@
 
   <section class="container py-10 flex">
     <div>
-      <img class="" src="images/desktop/image-interactive.jpg">
+      <img class="overflow-x-hidden" src="images/desktop/image-interactive.jpg">
     </div>
     
-    <div class="bg-white font-black text-black flex flex-col justify-end gap-6">
-    <h1>The leader in interactive VR</h1>
+    <div class="bg-white font-black text-black flex flex-col justify-end gap-6 text-left">
+    <h1 class="font-sans">The leader in interactive VR</h1>
     <p>
       Founded in 2011, Loopstudios has been producing world-class virtual reality 
       projects for some of the best companies around the globe. Our award-winning 
@@ -64,7 +67,7 @@
     </div>
 
     <ul class="grid grid-flow-row grid-cols-4 grid-rows-2 gap-4 pb-28">
-      <li><img class="" src="images/desktop/image-deep-earth.jpg"><p class="">Deep earth</p></li>
+      <li><img class="" src="images/desktop/image-deep-earth.jpg"><p class="absolute ">Deep earth</p></li>
       <li><img class="" src="images/desktop/image-night-arcade.jpg"><p>Night arcade</p></li>
       <li><img class="" src="images/desktop/image-soccer-team.jpg"><p>Soccer team VR</p></li>
       <li><img class="" src="images/desktop/image-grid.jpg"><p>The grid</p></li>
@@ -74,7 +77,7 @@
       <li><img class="" src="images/desktop/image-fisheye.jpg"><p>Make it fisheye</p></li>
     </ul>
 
-    <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full h-full">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full h-full">
       <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img class="object-cover w-full h-48" src="images/desktop/image-deep-earth.jpg" alt="Flower and sky"/>
     
@@ -91,7 +94,7 @@
         <h4 class="mb-3 text-xl font-semibold tracking-tight text-white">This is the title</h4>
         <p class="leading-normal text-gray-100">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
       </div>
-      </div> -->
+      </div>
     </div>
   </section>
 
