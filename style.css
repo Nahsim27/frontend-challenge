@@ -12,3 +12,7 @@ p {
 h1 { 
     font-family: 'Josefin Sans', sans-serif, !important;
 }
+
+.img-h {
+    height: 500px;
+}
